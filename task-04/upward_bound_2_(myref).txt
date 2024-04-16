@@ -1,0 +1,43 @@
+import math
+
+# Get the number of test cases
+t = int(input())
+
+# Iterate through each test case
+for test in range(t):
+    # Get the number of elements in the list
+    n = int(input())
+    
+    # Get the list of integers
+    l = list(map(int, input().split()))
+    
+    # Create a copy of the list
+    x = list(l)
+    
+    # Initialize a counter variable
+    c = 0
+    
+    # Check if there's only one element in the list
+    if n == 1:
+        print(0)
+    else:
+        # Initialize a flag to check if the condition is met
+        check = True
+        
+        # Iterate through the list in reverse order
+        for j in range(n - 1, 0, -1):
+            # Keep reducing the previous element until it's smaller than the current element
+            while l[j] <= l[j - 1]:
+                l[j - 1] = math.floor(l[j - 1] / 2)
+                c += 1
+            
+            # Check if the condition is met for the current element
+            if ((l[j] == 1 and l[0] != 0) or l[j] == 0):
+                check = False
+                break
+        
+        # Check the flag to determine the final output
+        if check == False:
+            print(-1)
+        else:
+            print(c)
