@@ -16,7 +16,7 @@ I am committed to giving my utmost effort and leveraging my skills to support th
 **TASKS LIST**|**TASK NAME**|**STATUS**
 --------------|---------------|---------------
 [Task-01]|Terminal Wizard|**Completed**
-[Task-02]|Lessgo Hugo|*Unattempted*
+[Task-02]|Lessgo Hugo|**Completed**
 [Task-03]|Hello World|**Completed**
 [Task-04]|Competitive Programming|**7 out of 10**
 [Task-05]|Hypertext Mockup Language|**Completed**
