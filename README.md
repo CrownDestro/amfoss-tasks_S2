@@ -27,6 +27,6 @@ I am committed to giving my utmost effort and leveraging my skills to support th
 [Task-10]|RuskOS|*Unattempted*
 [Task-11]|TinkerCAD|*Unattempted*
 [Task-12]|Godot|*Unattempted*
-[Task-13]|Vim|*Unattempted*
+[Task-13]|Vim|**Completed**
 [Task-14]|Bandit|**Completed**
 [Task-15]|Project Euler|**Completed**
